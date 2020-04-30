@@ -1,1 +1,157 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+
+#intro img {
+  max-width: 200px;
+  max-height: 200px;
+  background: url("./assets/images/bg-intro-mobile.svg");
+  background-size: cover;
+}
+
+#main-content {
+  background-color: hsl(220, 16%, 96%);
+}
+
+.card {
+  background-color: hsl(220, 16%, 96%);
+  border: none;
+}
+
+.card-image {
+  text-align: center;
+}
+
+.card-content {
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  background-color: hsl(220, 16%, 96%);
+}
+
+section {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.article-card {
+  /* background-color: hsl(0, 0%, 98%); */
+  border: none;
+}
+
+.article-card-image {
+  text-align: center;
+}
+
+.article-card-content {
+  padding: 10px;
+  text-align: left;
+  margin: 0 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.article-card-content h5:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+/* Add shadow to button */
+.btn-bank {
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(136, 65%, 51%);
+  /* background-color: hsl(192, 70%, 51%) */
+}
+
+article div img {
+  max-width: 350px;
+  max-height: auto;
+  background-size: cover;
+  background-position: center;
+  /* padding: 5px 5px 0 5px; */
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(233, 26%, 24%);
+  color: whitesmoke;
+}
+
+#sub-links li a {
+  color: whitesmoke;
+}
+
+#social-links li a {
+  color: whitesmoke;
+}
+
+#social-links li a img:hover {
+  background-color:hsl(136, 65%, 51%);
+  opacity:0.7 !important;
+  box-shadow: 0 0 0px #000000 !important;
+}
+
+#sub-links li a:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+#footer-logo img {
+  -webkit-filter: brightness(5);
+  filter: brightness(5);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 48em) {
+  #intro img {
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  #intro-text{
+    width: 40%;
+  }
+  #main-header {
+    width: 50%;
+  }
+  .card-image {
+    text-align: left;
+
+  }
+ .card-content {
+    text-align: left;
+  }
+
+  article div img {
+    max-width: 200px;
+    max-height: 168px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #footer-links {
+    width: 60%;
+  }
+
+  main{
+    margin-top: -80px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  textarea {
+    background: orange;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  textarea {
+    background: pink;
+  }
+}
